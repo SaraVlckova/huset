@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="detail">
+    <div class="wrapper">
+        <div class="nav container">
+            <div class="arrowback left">
+                <button onclick="goBack()"><img src="images/nav-bar/arrowback.png" alt="arrowback"></button>
+            </div>
+
+            <div class="right">
+                <div class="search padding-left">
+                    <button><img src="images/nav-bar/search.png" alt="searchicon"></button>
+                </div>
+
+                <div class="burgermenu padding-left">
+                    <button id="burger" class="burger"><img src="images/nav-bar/burger_menu.png" alt="menuicon"></button>
+                </div>
+            </div>    
+        </div>
+        <div id="drop-nav">
+            <div class="container">
+               <img class="logodropmenu fadelogo" src="images/logos/huset-logo-5-b.png">
+                <h1 class="h1-menu-style">VOLUNTEERING</h1>
+                <ul>
+                    <li>Volunteering - project</li>
+                    <li>FAQ - Volunteering</li>
+                </ul>
+                <h1 class="h1-menu-style">ABOUT</h1>
+                <ul>
+                    <li>History</li>
+                    <li>Basard Café</li>
+                    <li>Evoo</li>
+                    <li>Huset Biograf</li>
+                    <li>Musik Cafeen</li>
+                    <li>Teaterhuset</li>
+                </ul>
+                <h1 class="h1-menu-style">CONTACT</h1>
+                 <ul>
+                    <li>Find us</li>
+                    <li>Administration</li>
+                    <li>Evoo</li>
+                    <li>Press &amp; Logo</li>
+                    <li>FAQ</li>
+                    <li>Jobs &amp; Internships </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="detail_container">
+                
+            </div>            
+        </div>
+    </div>
+    
+     <template id="eventDetail">
+        <article class="detail-article detail-grid-info">
+            <div class="img-and-buttons detail-grid-img-and-buttons">
+                <div class="detail-img"></div>
+                <div class="detail-buttons flex-column">
+                    <a href=""><img src="images/buttons/buy.png" alt="buyicon"></a>
+                    <a href=""><img src="images/buttons/share.png" alt="shareicon"></a>
+                </div>
+            
+            </div>
+            <div class="info">
+                <h3>title</h3>
+                <div class="detail-time">time</div>
+                <div class="detail-price">price</div>
+                <p>content</p>
+            </div>
+            
+        </article>
+    </template>
+    
+    <script src="script.js"></script>
+</body>
+</html>
